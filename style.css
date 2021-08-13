@@ -4,4 +4,12 @@
   --tertiary-color: hsl(237, 12%, 33%);
   --quaternary-color: hsl(240, 6%, 50%);
   --quinary-color: hsl(240, 5%, 91%);
+  --white-color: white;
+  
+}
+.mobile-only {
+  display: initial !important;
+}
+.desktop-only {
+  display: none !important;
 }
