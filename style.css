@@ -4,6 +4,7 @@
   --tertiary-color: hsl(237, 12%, 33%);
   --quaternary-color: hsl(240, 6%, 50%);
   --quinary-color: hsl(240, 5%, 91%);
+  --senary-color: #ff4800;
   --white-color: white;
 }
 .mobile-only {
@@ -15,6 +16,8 @@
 
 body {
   padding: 20px;
+  width: 100%;
+  height: 100%;
   font-family: "Kumbh Sans", sans-serif;
   font-size: 12px;
   background: linear-gradient(var(--primary-color), var(--secondary-color))
@@ -29,6 +32,7 @@ body {
   margin-top: 100px;
   position: relative;
   width: 100%;
+  height: 100%;
   max-width: 296px;
   display: grid;
   grid-template-rows: 1fr;
@@ -69,6 +73,11 @@ body {
   }
 }
 @media screen and (max-width: 300px) {
+  body {
+    margin-top: 20px;
+    padding: 0px;
+  }
+
   .mobile-only.plataform {
     margin-right: 0px;
   }
@@ -89,6 +98,7 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 .faq-list {
   list-style: none;
 }
@@ -103,22 +113,27 @@ body {
   transform: rotate(180deg);
 }
 
+.faq-item.active .paragraph-item {
+  visibility: visible;
+  color: var(--quaternary-color);
+  height: 40px;
+}
 .faq-item.active .title-item {
+  padding-bottom: 20px;
+  color: var(--quartenary-color);
   font-weight: bold;
 }
 
 .faq-item + .faq-item {
   margin-top: 10px;
 }
-
+.title-item:hover {
+  color: var(--senary-color);
+}
 .title-item {
   font-weight: normal;
   position: relative;
   color: var(--quintenary-color);
-}
-
-.title-item.active {
-  padding-bottom: 20px;
 }
 
 .title-item::after {
@@ -130,13 +145,11 @@ body {
 }
 
 .paragraph-item {
-  display: none;
+  visibility: hidden;
+  height: 0;
 }
-.paragraph-item.active {
-  display: initial;
-  color: var(--quaternary-color);
-}
-@media screen and (min-width: 750px) {
+
+@media screen and (min-width: 700px) {
   body {
     padding: 50px;
   }
@@ -147,83 +160,57 @@ body {
     display: initial !important;
   }
   .card {
+    margin-top: 30px;
     grid-template-columns: 1fr 1fr;
-    padding: 20px;
-    max-width: 1000px;
-    max-height: 515px;
-    padding-left: 0;
+    padding: 30px;
+    max-width: 1034px;
+    height: 550px;
+    background-image: url(images/illustration-woman-online-desktop.svg),
+      url(images/bg-pattern-desktop.svg);
+    background-size: 50%, 50%;
+    background-repeat: no-repeat;
+    background-position-y: center, center;
+    background-position-x: -15%, -15%;
   }
 
   .card-hero {
-    top: 65%;
     position: relative;
-    left: 0.1%;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    max-width: 500px;
-    max-height: 500px;
-  }
-  .desktop-only.woman {
-    position: relative;
-    width: 95%;
-    height: 80%;
-    left: -130px;
-    transform: translateX(50px);
   }
 
-  .desktop-only.plataform {
-    position: absolute;
-    width: 90%;
-    height: 90%;
-    top: 5%;
-    left: -90px;
-    transform: translateX(30px);
-  }
   .illustration-box {
     position: absolute;
-    z-index: 2;
     left: -90px;
-    bottom: 85px;
-    
+    top: 44%;
   }
-  @media screen and (max-width: 900px) {
-    .desktop-only.woman {
-      position: relative;
-      width: 100%;
-      height: 80%;
-      left: -95px;
-      transform: translateX(50px);
-    }
-
-    .desktop-only.plataform {
-      position: absolute;
-      width: 90%;
-      height: 90%;
-      top: 5%;
-      left: -60px;
-      transform: translateX(30px);
-    }
+  @media screen and (max-width: 1020px) {
     .illustration-box {
       position: absolute;
       z-index: 2;
-      left: -90px;
+      left: -85px;
+      bottom: 75px;
+      width: 170px;
+    }
+  }
+  @media screen and (max-width: 860px) {
+    .illustration-box {
+      position: absolute;
+      z-index: 2;
+      left: -80px;
       bottom: 95px;
-      width: 171px;
+      width: 150px;
     }
   }
 
   .card-faq {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     height: 100%;
     margin-top: 0;
   }
 
   .faq-title {
     text-align: left;
-    margin-bottom: 37px;
+    margin-bottom: 38px;
   }
 
   .faq-list {
