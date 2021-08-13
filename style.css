@@ -92,3 +92,27 @@ body {
 .faq-list {
   list-style: none;
 }
+.faq-item {
+  padding-top: 10px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--quinary-color);
+  cursor: pointer;
+}
+
+.faq-item.active .title-item::after {
+  transform: rotate(180deg);
+}
+
+.faq-item.active .title-item {
+  font-weight: bold;
+}
+
+.faq-item + .faq-item {
+  margin-top: 10px;
+}
+
+.title-item {
+  font-weight: normal;
+  position: relative;
+  color: var(--quintenary-color);
+}
