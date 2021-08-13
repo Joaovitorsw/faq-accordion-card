@@ -188,7 +188,7 @@ body {
       z-index: 2;
       left: -85px;
       bottom: 75px;
-      width: 170px;
+      width: 171px;
     }
   }
   @media screen and (max-width: 860px) {
@@ -197,7 +197,7 @@ body {
       z-index: 2;
       left: -80px;
       bottom: 95px;
-      width: 150px;
+      width: 138px;
     }
   }
 
