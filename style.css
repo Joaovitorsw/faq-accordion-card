@@ -182,4 +182,20 @@ body {
     left: -95px;
     bottom: 85px;
   }
+  .card-faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin-top: 0;
+  }
+
+  .faq-title {
+    text-align: left;
+    margin-bottom: 37px;
+  }
+
+  .faq-list {
+    max-width: 80%;
+  }
 }
