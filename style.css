@@ -116,3 +116,23 @@ body {
   position: relative;
   color: var(--quintenary-color);
 }
+
+.title-item.active {
+  padding-bottom: 20px;
+}
+
+.title-item::after {
+  content: url(./images/icon-arrow-down.svg);
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: transform 0.2s ease-out;
+}
+
+.paragraph-item {
+  display: none;
+}
+.paragraph-item.active {
+  display: initial;
+  color: var(--quaternary-color);
+}
