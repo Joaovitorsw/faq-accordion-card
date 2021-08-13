@@ -59,3 +59,21 @@ body {
   margin-right: 30px;
   transform: translateY(105%);
 }
+@media screen and (max-width: 330px) {
+  .mobile-only.woman {
+    position: relative;
+    margin-left: 3px;
+  }
+  .mobile-only.plataform {
+    margin-right: 25px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .mobile-only.plataform {
+    margin-right: 0px;
+  }
+  .mobile-only.woman {
+    position: relative;
+    margin-left: -3.5px;
+  }
+}
