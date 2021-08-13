@@ -77,3 +77,18 @@ body {
     margin-left: -3.5px;
   }
 }
+.card-faq {
+  padding: 20px;
+  margin-top: 80px;
+}
+
+.faq-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.faq-list {
+  list-style: none;
+}
