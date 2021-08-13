@@ -5,11 +5,34 @@
   --quaternary-color: hsl(240, 6%, 50%);
   --quinary-color: hsl(240, 5%, 91%);
   --white-color: white;
-  
 }
 .mobile-only {
   display: initial !important;
 }
 .desktop-only {
   display: none !important;
+}
+
+body {
+  padding: 20px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 12px;
+  background: linear-gradient(var(--primary-color), var(--secondary-color))
+    no-repeat;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin-top: 100px;
+  position: relative;
+  width: 100%;
+  max-width: 296px;
+  display: grid;
+  grid-template-rows: 1fr;
+  align-items: center;
+  background-color: var(--white-color);
+  border-radius: 15px;
 }
