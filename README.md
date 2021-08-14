@@ -46,7 +46,7 @@ Deploy do front-end efetuado no [Netlify](https://www.netlify.com/) para visuali
 
 |                             :computer:Desktop                             |                             :iphone: Mobile                              |
 | :-----------------------------------------------------------------------: | :----------------------------------------------------------------------: |
-| <kbd><img src=".github/previews/desktop-preview.png" alt="Tablet"/></kbd> | <kbd><img src=".github/previews/mobile-preview.png" alt="Mobile"/></kbd> |
+| <kbd><img src=".github/previews/desktop-preview.jpg" alt="Tablet"/></kbd> | <kbd><img src=".github/previews/mobile-preview.jpg" alt="Mobile"/></kbd> |
 
 </div>
   
