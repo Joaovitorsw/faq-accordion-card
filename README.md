@@ -85,7 +85,9 @@ Minha versão da aplicação proposta pelo [Frontend Mentor](https://www.fronten
 |    Mobile First    |
 |      Position      |
 |  Background Image  |
-|     HTML class     |
+|     HTML Class     |
+|     CSS Class      |
+|     Media Query    |
 |  Pseudo Selectors  |
 |   CSS Box Model    |
 |  Size Properties   |
