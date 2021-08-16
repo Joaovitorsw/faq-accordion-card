@@ -1,6 +1,6 @@
 <div align="right">
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e3c52228-d2d0-4ecd-a86e-d5663fc30ca7/deploy-status)](https://app.netlify.com/sites/https://joaovitorsw-faq-accordion-card.netlify.app//deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e3c52228-d2d0-4ecd-a86e-d5663fc30ca7/deploy-status)](https://app.netlify.com/sites/joaovitorsw-faq-accordion-card/deploys)
 
 </div>
 
