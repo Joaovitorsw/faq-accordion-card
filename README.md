@@ -92,6 +92,7 @@ Minha versão da aplicação proposta pelo [Frontend Mentor](https://www.fronten
 |   CSS Box Model    |
 |  Size Properties   |
 | Element visibility |
+|    Atomic Comit    |
 |      Flexbox       |
 |        Grid        |
 |   Array Methods    |
